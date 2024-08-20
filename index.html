@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+
+        <!-- Formulário de Autenticação -->
+        <div id="auth-form">
+            <h2>Login</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuário" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="#" id="signup-link">Cadastre-se</a></p>
+        </div>
+
+        <!-- Formulário de Cadastro -->
+        <div id="signup-form" class="hidden">
+            <h2>Cadastro</h2>
+            <form action="#">
+                <input type="text" placeholder="Usuário" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+            <p>Já tem uma conta? <a href="#" id="login-link">Faça login</a></p>
+        </div>
+
+        <!-- To-Do List -->
+        <div id="todo-list" class="hidden">
+            <h2>Minhas Tarefas</h2>
+            <form id="task-form">
+                <input type="text" id="new-task" placeholder="Adicione uma nova tarefa">
+                <button type="submit">Adicionar</button>
+            </form>
+            <ul id="tasks">
+                <!-- Lista de tarefas será gerada aqui -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
