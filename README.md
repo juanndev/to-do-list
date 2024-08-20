@@ -21,7 +21,7 @@ Este é um projeto simples de To-Do List (lista de tarefas) com autenticação d
 
 ## Como Usar:
 
-1. Clone o repositório: git clone https://github.com/seu-usuario/seu-repositorio.git
+1. Clone o repositório: git clone https://github.com/juanndev/to-do-list
 
 2. Abra o arquivo index.html em seu navegador:
 
